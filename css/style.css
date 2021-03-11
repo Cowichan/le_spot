@@ -13,19 +13,19 @@ h2 {
   margin: 0 0 20px 0;
   font-weight: 500;
   /* font-size: 34px; */
-  font-size: 44px;
+  font-size: 37px;
   color: #333;
   text-transform: uppercase;
 }
 h3 {
   /* font-size: 22px; */
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 500;
   color: #333;
 }
 h4 {
   /* font-size: 24px; */
-  font-size: 32px;
+  font-size: 28px;
   text-transform: uppercase;
   font-weight: 400;
   color: #333;
@@ -38,7 +38,7 @@ h5 {
 }
 p {
   /* font-size: 16px; */
-  font-size: 26px;
+  font-size: 20px;
 }
 p.intro {
   margin: 12px 0 0;
@@ -127,7 +127,7 @@ a:focus,
   text-transform: uppercase;
   color: #ddd;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   padding: 5px 0;
   border: 2px solid transparent;
   letter-spacing: 0.5px;
@@ -220,7 +220,8 @@ a:focus,
   /* font-family: "Dancing Script", cursive; */
   font-family: "Cedarville Cursive", cursive;
   color: #fff;
-  font-size: 10em;
+  /* font-size: 10em; */
+  font-size: 6em;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 10px;
@@ -317,7 +318,7 @@ header .intro-text {
 #restaurant-menu .menu-item-description {
   font-style: italic;
   /* font-size: 15px; */
-  font-size: 25px;
+  font-size: 20px;
 }
 #restaurant-menu .menu-item-price {
   float: right;
@@ -671,7 +672,7 @@ label {
   color: #eee;
 }
 #footer p {
-  font-size: 25px;
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.8);
 }
 #footer a {

@@ -118,7 +118,7 @@ a:focus,
 #menu a.navbar-brand {
   /* font-family: "Dancing Script", cursive, sans-serif; */
   font-family: "Cedarville Cursive", cursive;
-  font-size: 46px;
+  font-size: 32px;
   color: #617a36;
   font-weight: 900;
   letter-spacing: 1px;
@@ -221,7 +221,7 @@ a:focus,
   font-family: "Cedarville Cursive", cursive;
   color: #fff;
   /* font-size: 10em; */
-  font-size: 6em;
+  font-size: 4.5em;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 10px;

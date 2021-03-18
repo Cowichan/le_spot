@@ -15,26 +15,30 @@ h2 {
   /* font-size: 34px; */
   font-size: 37px;
   color: #333;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-family: "Niconne", sans-serif, cursive;
 }
 h3 {
   /* font-size: 22px; */
   font-size: 30px;
   font-weight: 500;
   color: #333;
+  font-family: "Niconne", sans-serif, cursive;
 }
 h4 {
   /* font-size: 24px; */
   font-size: 28px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 400;
   color: #333;
+  font-family: "Niconne", sans-serif, cursive;
 }
 h5 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* font-weight: 700; */
   font-weight: 900;
   line-height: 20px;
+  font-family: "Niconne", sans-serif, cursive;
 }
 p {
   /* font-size: 16px; */
@@ -117,9 +121,9 @@ a:focus,
 }
 #menu a.navbar-brand {
   /* font-family: "Dancing Script", cursive, sans-serif; */
-  font-family: "Cedarville Cursive", cursive;
+  font-family: "Niconne", sans-serif, cursive;
   font-size: 32px;
-  color: #617a36;
+  color: #dac2a8;
   font-weight: 900;
   letter-spacing: 1px;
 }
@@ -192,8 +196,8 @@ a:focus,
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-  color: #fff;
-  background-color: #628d0f;
+  color: black;
+  background-color: #dac2a8;
 }
 /* Header Section */
 .intro {
@@ -218,8 +222,9 @@ a:focus,
 }
 .intro h1 {
   /* font-family: "Dancing Script", cursive; */
-  font-family: "Cedarville Cursive", cursive;
-  color: #fff;
+  /* font-family: "Cedarville Cursive", cursive; */
+  font-family: "Niconne", sans-serif, cursive;
+  color: #dac2a8;
   /* font-size: 10em; */
   font-size: 4.5em;
   font-weight: 700;
@@ -510,18 +515,18 @@ ol.type li a:hover {
   background: #628d1b; /* Old browsers */
   background: -moz-linear-gradient(
     top,
-    rgba(98, 141, 27, 1) 50%,
-    rgba(119, 153, 54, 1) 100%
+    rgba(218, 194, 168, 1) 10%,
+    rgba(96, 121, 54, 1) 100%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
-    rgba(98, 141, 27, 1) 50%,
-    rgba(119, 153, 54, 1) 100%
+    rgba(218, 194, 168, 1) 10%,
+    rgba(96, 121, 54, 1) 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
-    rgba(98, 141, 27, 1) 50%,
-    rgba(119, 153, 54, 1) 100%
+    rgba(218, 194, 168, 1) 10%,
+    rgba(96, 121, 54, 1) 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#607936', endColorstr='#779936', GradientType=0 ); /* IE6-9 */
 }
@@ -530,7 +535,7 @@ ol.type li a:hover {
   background: #628d1b;
 }
 #call-reservation h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Niconne", sans-serif, cursive;
   /* font-family: "Cedarville Cursive", cursive; */
   color: #fff;
   font-weight: 400;
@@ -626,13 +631,19 @@ label {
   background: #262626;
   padding: 50px 0 0 0;
 }
+
 #footer h3 {
-  color: #628d1b;
+  color: #dac2a8;
   font-weight: 400;
   font-size: 28px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-bottom: 20px;
 }
+
+.rs {
+  color: black !important;
+}
+
 #footer .copyrights {
   padding: 20px 0;
   margin-top: 50px;
@@ -640,18 +651,18 @@ label {
   background: #617a36; /* Old browsers */
   background: -moz-linear-gradient(
     top,
-    rgba(98, 141, 27, 1) 0%,
-    rgba(142, 182, 64, 1) 50%
+    rgba(218, 194, 168, 1) 10%,
+    rgba(96, 121, 54, 1) 70% /* rgba(218, 194, 168, 1) 100% */
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
-    rgba(98, 141, 27, 1) 0%,
-    rgba(142, 182, 64, 1) 50%
+    rgba(218, 194, 168, 1) 10%,
+    rgba(96, 121, 54, 1) 70%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
-    rgba(98, 141, 27, 1) 0%,
-    rgba(142, 182, 64, 1) 50%
+    rgba(218, 194, 168, 1) 10%,
+    rgba(96, 121, 54, 1) 70%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', endColorstr='#607936', GradientType=0 ); /* IE6-9 */
 }

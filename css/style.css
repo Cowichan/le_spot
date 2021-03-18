@@ -4,7 +4,7 @@ html {
   /* font-family: "Cedarville Cursive", cursive; */
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  color: #333;
   font-weight: 300;
   width: 100% !important;
   height: 100% !important;
@@ -537,7 +537,7 @@ ol.type li a:hover {
 #call-reservation h2 {
   font-family: "Niconne", sans-serif, cursive;
   /* font-family: "Cedarville Cursive", cursive; */
-  color: #fff;
+  color: #333;
   font-weight: 400;
   margin: 0;
 }
@@ -556,7 +556,7 @@ ol.type li a:hover {
   background: #f6f6f6;
 }
 #contact .section-title p {
-  color: #777;
+  color: #333;
 }
 #contact form {
   padding: 0;
@@ -684,10 +684,12 @@ label {
 }
 #footer p {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(255, 255, 255, 0.8); */
+  color: #333;
 }
 #footer a {
-  color: #f6f6f6;
+  /* color: #f6f6f6; */
+  color: #333;
 }
 #footer a:hover {
   color: #333;

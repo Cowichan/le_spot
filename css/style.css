@@ -684,12 +684,13 @@ label {
 }
 #footer p {
   font-size: 20px;
-  /* color: rgba(255, 255, 255, 0.8); */
-  color: #333;
+  color: rgba(255, 255, 255, 0.8);
+  /* color: #333; */
 }
 #footer a {
   /* color: #f6f6f6; */
-  color: #333;
+  /* color: #333; */
+  color: rgba(255, 255, 255, 0.8);
 }
 #footer a:hover {
   color: #333;

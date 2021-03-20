@@ -16,14 +16,16 @@ h2 {
   font-size: 37px;
   color: #333;
   /* text-transform: uppercase; */
-  font-family: "Niconne", sans-serif, cursive;
+  /* font-family: "Niconne", sans-serif, cursive; */
+  font-family: "Raleway", sans-serif;
 }
 h3 {
   /* font-size: 22px; */
   font-size: 30px;
   font-weight: 500;
   color: #333;
-  font-family: "Niconne", sans-serif, cursive;
+  /* font-family: "Niconne", sans-serif, cursive; */
+  font-family: "Bebas Neue", sans-serif, cursive;
 }
 h4 {
   /* font-size: 24px; */
@@ -31,14 +33,16 @@ h4 {
   /* text-transform: uppercase; */
   font-weight: 400;
   color: #333;
-  font-family: "Niconne", sans-serif, cursive;
+  /* font-family: "Niconne", sans-serif, cursive; */
+  font-family: "Bebas Neue", sans-serif, cursive;
 }
 h5 {
   /* text-transform: uppercase; */
   /* font-weight: 700; */
   font-weight: 900;
   line-height: 20px;
-  font-family: "Niconne", sans-serif, cursive;
+  /* font-family: "Niconne", sans-serif, cursive; */
+  font-family: "Bebas Neue", sans-serif, cursive;
 }
 p {
   /* font-size: 16px; */
@@ -121,7 +125,9 @@ a:focus,
 }
 #menu a.navbar-brand {
   /* font-family: "Dancing Script", cursive, sans-serif; */
-  font-family: "Niconne", sans-serif, cursive;
+  /* font-family: "Niconne", sans-serif, cursive; */
+  font-family: "Bebas Neue", sans-serif, cursive;
+
   font-size: 32px;
   color: #dac2a8;
   font-weight: 900;
@@ -169,6 +175,17 @@ a:focus,
   padding: 80px 0;
   background: rgba(0, 0, 0, 0.7);
 }
+
+.section-title .overlay2 {
+  padding: 80px 0;
+  background: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.overlay2 h2 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .section-title p {
   font-size: 32px;
   color: rgba(255, 255, 255, 0.8);
@@ -223,7 +240,9 @@ a:focus,
 .intro h1 {
   /* font-family: "Dancing Script", cursive; */
   /* font-family: "Cedarville Cursive", cursive; */
-  font-family: "Niconne", sans-serif, cursive;
+  /* font-family: "Niconne", sans-serif, cursive; */
+  font-family: "Bebas Neue", sans-serif, cursive;
+
   color: #dac2a8;
   /* font-size: 10em; */
   font-size: 4.5em;
@@ -257,6 +276,14 @@ header .intro-text {
 #about .about-text {
   margin-left: 10px;
 }
+
+.about-par {
+  max-width: 300px;
+  text-align: justify;
+  padding: 20px 0;
+  margin: auto;
+}
+
 #about .about-img {
   display: inline-block;
   position: relative;
@@ -290,6 +317,19 @@ header .intro-text {
   width: 300px;
   box-shadow: 15px 0 #a7c44c;
 }
+
+.par-menu {
+  /* margin: auto; */
+}
+
+.par-menu img {
+  /* max-width: 300px !important; */
+  box-shadow: none !important;
+  text-align: center;
+  margin: auto;
+  border: 1px solid silver;
+}
+
 #restaurant-menu h3 {
   padding: 10px 0;
   text-transform: uppercase;
@@ -535,7 +575,9 @@ ol.type li a:hover {
   background: #628d1b;
 }
 #call-reservation h2 {
-  font-family: "Niconne", sans-serif, cursive;
+  /* font-family: "Niconne", sans-serif, cursive; */
+  font-family: "Bebas Neue", sans-serif, cursive;
+
   /* font-family: "Cedarville Cursive", cursive; */
   color: #333;
   font-weight: 400;
@@ -699,4 +741,8 @@ label {
 .navbar-brand > img {
   display: block;
   max-width: 250px;
+}
+
+.partenaires {
+  padding: 15px !important;
 }

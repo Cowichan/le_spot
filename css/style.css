@@ -279,18 +279,18 @@ header .intro-text {
 
 .about-par {
   /* max-width: 300px; */
-  max-width: 450px;
+  max-width: 442px;
   text-align: justify;
   padding: 20px 0;
   margin: auto;
 }
 
-.about-par2 {
+/* .about-par2 {
   max-width: 600px;
   text-align: justify;
   padding: 20px 0;
   margin: auto;
-}
+} */
 
 .about-par2 a,
 .about-par a {
@@ -326,17 +326,17 @@ header .intro-text {
 #restaurant-menu .section-title h2 {
   color: #fff;
 }
-#restaurant-menu img {
+/* #restaurant-menu img {
   width: 300px;
   box-shadow: 15px 0 #a7c44c;
-}
+} */
 
-.par-menu {
-  /* margin: auto; */
-}
+/* .par-menu {
+  margin: auto;
+} */
 
 .par-menu img {
-  /* max-width: 300px !important; */
+  max-width: 442px !important;
   box-shadow: none !important;
   text-align: center;
   margin: auto;

@@ -725,3 +725,12 @@ label {
 .partenaires {
   padding: 15px !important;
 }
+
+@media screen and (max-width: 550px) {
+  .about-par {
+    max-width: 200px !important;
+  }
+  .par-menu img {
+    max-width: 200px !important;
+  }
+}

@@ -728,9 +728,13 @@ label {
 
 @media screen and (max-width: 550px) {
   .about-par {
-    max-width: 200px !important;
+    max-width: 300px !important;
   }
   .par-menu img {
-    max-width: 200px !important;
+    max-width: 300px !important;
   }
+  /* .hover-text {
+    background-color: green;
+    max-width: 333px;
+  } */
 }

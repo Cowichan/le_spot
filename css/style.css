@@ -183,7 +183,7 @@ a:focus,
 }
 
 .overlay2 h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 
 .section-title p {
@@ -278,10 +278,23 @@ header .intro-text {
 }
 
 .about-par {
-  max-width: 300px;
+  /* max-width: 300px; */
+  max-width: 450px;
   text-align: justify;
   padding: 20px 0;
   margin: auto;
+}
+
+.about-par2 {
+  max-width: 600px;
+  text-align: justify;
+  padding: 20px 0;
+  margin: auto;
+}
+
+.about-par2 a,
+.about-par a {
+  color: blue;
 }
 
 #about .about-img {
@@ -550,25 +563,9 @@ ol.type li a:hover {
 /* Call Reservation Section */
 #call-reservation {
   padding: 90px 0;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8) !important;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#607936+50,779936+100 */
-  background: #628d1b; /* Old browsers */
-  background: -moz-linear-gradient(
-    top,
-    rgba(218, 194, 168, 1) 10%,
-    rgba(96, 121, 54, 1) 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    rgba(218, 194, 168, 1) 10%,
-    rgba(96, 121, 54, 1) 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    rgba(218, 194, 168, 1) 10%,
-    rgba(96, 121, 54, 1) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#607936', endColorstr='#779936', GradientType=0 ); /* IE6-9 */
+  background: #262626; /* Old browsers */
 }
 #call-reservation .overlay {
   padding: 80px 0;
@@ -579,7 +576,7 @@ ol.type li a:hover {
   font-family: "Bebas Neue", sans-serif, cursive;
 
   /* font-family: "Cedarville Cursive", cursive; */
-  color: #333;
+  color: #fff;
   font-weight: 400;
   margin: 0;
 }
@@ -675,38 +672,20 @@ label {
 }
 
 #footer h3 {
-  color: #dac2a8;
+  /* color: #dac2a8; */
+  color: #fff;
   font-weight: 400;
   font-size: 28px;
   /* text-transform: uppercase; */
   margin-bottom: 20px;
 }
 
-.rs {
-  color: black !important;
-}
-
 #footer .copyrights {
   padding: 20px 0;
   margin-top: 50px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#779936+0,8eb640+50 */
-  background: #617a36; /* Old browsers */
-  background: -moz-linear-gradient(
-    top,
-    rgba(218, 194, 168, 1) 10%,
-    rgba(96, 121, 54, 1) 70% /* rgba(218, 194, 168, 1) 100% */
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    rgba(218, 194, 168, 1) 10%,
-    rgba(96, 121, 54, 1) 70%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    rgba(218, 194, 168, 1) 10%,
-    rgba(96, 121, 54, 1) 70%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', endColorstr='#607936', GradientType=0 ); /* IE6-9 */
+  background: #262626; /* Old browsers */
+  border-top: 1px solid white;
 }
 #footer .social {
   margin: 20px 0 30px 0;

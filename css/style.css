@@ -9,6 +9,12 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+
+.faicone {
+  position: relative;
+  bottom: 20px;
+}
+
 h2 {
   margin: 0 0 20px 0;
   font-weight: 500;

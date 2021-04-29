@@ -739,8 +739,9 @@ label {
   .par-menu img {
     max-width: 300px !important;
   }
-  /* .hover-text {
-    background-color: green;
-    max-width: 333px;
-  } */
+  p.cmail {
+    /* color: red !important; */
+    font-size: 18px !important;
+    font-weight: bold;
+  }
 }

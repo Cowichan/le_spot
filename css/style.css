@@ -732,6 +732,16 @@ label {
   padding: 15px !important;
 }
 
+a.nl:hover {
+  color: white !important;
+}
+
+a#glien:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 550px) {
   .about-par {
     max-width: 300px !important;

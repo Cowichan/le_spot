@@ -10,6 +10,14 @@ html {
   height: 100% !important;
 }
 
+#mapid {
+  height: 480px;
+}
+
+.moins {
+  font-size: 16px !important;
+}
+
 .faicone {
   position: relative;
   bottom: 20px;

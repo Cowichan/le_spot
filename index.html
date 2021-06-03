@@ -37,11 +37,19 @@
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg" />
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       type="text/css"
       href="fonts/font-awesome/css/font-awesome.css"
+    />
+
+    <!-- leaflet -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
     />
 
     <!-- Stylesheet
@@ -707,7 +715,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 guethary">
+            <div class="col-sm-6 col-md-4 col-lg-4 guethary lacarte">
               <div class="portfolio-item">
                 <div class="hover-bg">
                   <a
@@ -747,7 +755,7 @@
                 </div>
               </div>
             </div> -->
-            <div class="col-sm-6 col-md-4 col-lg-4 guethary">
+            <div class="col-sm-6 col-md-4 col-lg-4 guethary lacarte">
               <div class="portfolio-item">
                 <div class="hover-bg">
                   <a
@@ -871,47 +879,7 @@
         </div>
       </div>
     </div>
-    <!-- Team Section -->
-    <!-- <div id="team" class="text-center">
-  <div class="overlay">
-    <div class="container">
-      <div class="col-md-10 col-md-offset-1 section-title">
-        <h2>L'équipe</h2>
-        <hr>
-        <p>Romain et son équipe vous accueille du mercredi au dimanche à partir de 18h30</p>
-      </div>
-      <div id="row">
-        <div class="col-md-12 team">
-          <div class="thumbnail">
-            <div class="team-img"><img src="img/team/bobby.jpg" alt="Romain Bonnet et son équipe vous accueille à la pizzeria le Spot à Guéthary"></div>
-            <div class="caption">
-              <h3>Mike Doe</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 team">
-          <div class="thumbnail">
-            <div class="team-img"><img src="img/team/02.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Chris Doe</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 team">
-          <div class="thumbnail">
-            <div class="team-img"><img src="img/team/03.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Ethan Doe</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
+
     <!-- Call Reservation Section -->
     <div id="call-reservation" class="text-center">
       <div class="container">
@@ -935,30 +903,11 @@
           <p class="cmail">contact@pizzerialespot.com</p>
           <p>Tel. : 05 59 26 58 64</p>
         </div>
-        <!-- <div class="col-md-10 col-md-offset-1">
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
+        <div class="section-title text-center">
+          <h2>Trouver la pizzeria le Spot sur le plan</h2>
+          <hr />
+          <div id="mapid"></div>
         </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-      </form>
-    </div> -->
       </div>
     </div>
     <div id="footer">
@@ -984,6 +933,7 @@
           </div>
         </div>
       </div>
+
       <div class="container-fluid text-center copyrights">
         <div class="col-md-8 col-md-offset-2">
           <div class="social">
@@ -1015,6 +965,14 @@
     </div>
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script type="text/javascript" src="js/map.js"></script>
+
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
     <script type="text/javascript" src="js/nivo-lightbox.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>

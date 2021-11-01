@@ -1,7 +1,7 @@
 var mymap = L.map("mapid", {
   scrollWheelZoom: false,
 }).setView([43.4375, -1.5559], 12);
-mymap.dragging.disable();
+// mymap.dragging.disable();
 
 L.tileLayer("https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png", {
   maxZoom: 20,

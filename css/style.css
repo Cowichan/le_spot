@@ -404,15 +404,12 @@ header .intro-text {
 
 .groupeMenu .menu-item-name,
 .groupeMenu .menu-item-description {
-  overflow: hidden;
-  /* white-space: nowrap; */
   text-overflow: ellipsis;
 }
 
-.groupeMenu:active .menu-item-description {
-  /* overflow: hidden; */
+/* .groupeMenu:active .menu-item-description {
   white-space: nowrap;
-  /* text-overflow: ellipsis; */
+
 }
 
 .groupeMenu:active {
@@ -432,7 +429,7 @@ header .intro-text {
   display: block !important;
   width: 20%;
   transition: all 1s ease;
-}
+} */
 
 .menu-item-name3 {
   background-color: #607936;

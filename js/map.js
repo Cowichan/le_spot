@@ -1,7 +1,12 @@
-var mymap = L.map("mapid").setView([43.4375, -1.5559], 12);
+var mymap = L.map("mapid", {
+  scrollWheelZoom: false,
+}).setView([43.4375, -1.5559], 12);
+mymap.dragging.disable();
 
-L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
-  maxZoom: 18,
+L.tileLayer("https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png", {
+  maxZoom: 20,
+  attribution:
+    '&copy; OpenStreetMap France | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(mymap);
 
 const ga = [43.42454, -1.60919];

@@ -18,10 +18,10 @@ html {
   font-size: 16px !important;
 }
 
-.faicone {
+/* .faicone {
   position: relative;
   bottom: 20px;
-}
+} */
 
 h2 {
   margin: 0 0 20px 0;
@@ -378,7 +378,97 @@ header .intro-text {
 #restaurant-menu .menu-item {
   margin: 35px 0;
   font-size: 18px;
+  border-radius: 15px;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+  box-shadow: 20px 23px 81px rgba(0, 0, 0, 0.2);
+  /* padding: 10px; */
+  display: flex;
+
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
 }
+
+.groupeMenu {
+  /* display: column !important; */
+  flex-direction: column;
+  /* width: 80%; */
+  padding: 10px;
+  width: 100%;
+}
+
+.prix {
+  display: flex;
+  color: blueviolet !important;
+}
+
+.groupeMenu .menu-item-name,
+.groupeMenu .menu-item-description {
+  overflow: hidden;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+}
+
+.groupeMenu:active .menu-item-description {
+  /* overflow: hidden; */
+  white-space: nowrap;
+  /* text-overflow: ellipsis; */
+}
+
+.groupeMenu:active {
+  width: 80%;
+}
+
+.menu-item:active .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: -webkit-transform 500ms ease-in-out;
+  transition: -webkit-transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+}
+
+.menu-item:active .menu-item-name3 {
+  display: block !important;
+  width: 20%;
+  transition: all 1s ease;
+}
+
+.menu-item-name3 {
+  background-color: #607936;
+  width: 0;
+  transition: all 1s ease;
+  display: flex;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  border-radius: 0 15px 15px 0;
+
+  /* position: relative; */
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.fa-check-circle {
+  position: relative;
+  top: 35%;
+  /* -webkit-transform: rotate(360deg);
+  transform: rotate(360deg); */
+}
+
+.menu-item:hover {
+  cursor: pointer;
+}
+
 #restaurant-menu .menu-item-name {
   font-weight: 800;
   font-size: 17px;
@@ -386,6 +476,7 @@ header .intro-text {
 
   color: #555;
   border-bottom: 2px dotted rgb(213, 213, 213);
+  width: 90%;
 }
 #restaurant-menu .menu-item-description {
   font-style: italic;
@@ -396,8 +487,16 @@ header .intro-text {
   float: right;
   font-weight: 600;
   color: #555;
-  margin-top: -26px;
+  /* margin-top: -26px; */
+  width: 10%;
 }
+.des2 {
+  width: 90%;
+}
+.pri2 {
+  width: 10%;
+}
+
 /* Portfolio Section */
 #portfolio {
   padding: 0 0 120px 0;
